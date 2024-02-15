@@ -1,3 +1,4 @@
+# Separate first name and last name
 let name = "Natasha Romanov"
 let spaceIndex = name.firstIndex(of: " ")
 let firstName = name[name.startIndex..<spaceIndex!]
